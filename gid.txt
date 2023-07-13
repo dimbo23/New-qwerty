@@ -1,0 +1,34 @@
+1) git --version - проверка установки
+
+2) cd C:\Users\gakud\Downloads - перейти в папку 
+
+3) git init - инициализация репозитория
+
+
+4) git config --global user.name "Anastasiya Eliseeva"
+   git config --global user.email "pandochka12122015@gmail.com"
+
+
+5) git config --list
+
+
+
+echo "# frontent323" >> README.md 
+git init
+git add README.md 
+git commit -m "первая фиксация"
+git branch -M main
+git remote add origin https://github.com/pandochka1/frontent323.git
+git push -u origin main
+
+_______________________________________________________________
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/pandochka1/frontent323.git
+git push -u origin master
+
+________________________________________________________________
+Клонирование
+git clone https://github.com/pandochka1/qwerty.git
